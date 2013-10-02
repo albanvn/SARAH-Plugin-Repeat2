@@ -1,0 +1,23 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleRepeat2" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleRepeat2" scope="public">
+    <example>Sarah répète</example>
+    <tag>out.action=new Object();</tag>
+    <item>Sarah</item>
+    <item>
+    <one-of>
+		<item>tu peux répéter</item>
+		<item>répètes</item>
+		<item>quoi</item>
+		<item>tu as dit quoi</item>
+		<item>pardon</item>
+		<item>qu'est ce que tu as dit</item>
+		<item>que dis tu</item>
+		<item>hein</item>
+		<item>excuses moi</item>
+		<item>répète la dernière phrase</item>
+		<item>qu'as-tu dit</item>
+    </one-of>
+    </item>	
+  <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/repeat2";</tag>
+  </rule>
+</grammar>

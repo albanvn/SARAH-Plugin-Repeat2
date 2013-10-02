@@ -1,0 +1,8 @@
+{
+  "modules": { 
+    "repeat2": {
+      "description": "Plugin qui permet à SARAH de répéter ce qu'elle a dit en dernier+fonction speak random (speakR)",
+      "version": "1.0"
+    }
+  }
+}
